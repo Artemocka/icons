@@ -4,6 +4,8 @@ package com.dracul.triplex.icons.ic_align_left_24_v1/*
 
 import androidx.compose.ui.graphics.vector.ImageVector
 import com.dracul.triplex.icons.TriplexIcons
+import com.dracul.triplex.icons.ic_align_left_24_v1.dark.IcAlignLeft_24_dm
+import com.dracul.triplex.icons.ic_align_left_24_v1.light.IcAlignLeft_24_lm
 import com.dracul.triplex.theme_detector.ThemeDetector
 
 val TriplexIcons.IcAlignLeft_24V1: ImageVector

@@ -5,6 +5,8 @@ package com.dracul.triplex.icons.ic_align_left_24_v2/*
 
 import com.dracul.triplex.api.Icon
 import com.dracul.triplex.icons.TriplexIcons
+import com.dracul.triplex.icons.ic_align_left_24_v2.dark.IcAlignLeft_24_dm
+import com.dracul.triplex.icons.ic_align_left_24_v2.light.IcAlignLeft_24_lm
 
 val TriplexIcons.IcAlignLeft_24V2: Icon
     get() = Icon(TriplexIcons.IcAlignLeft_24_lm, TriplexIcons.IcAlignLeft_24_dm)

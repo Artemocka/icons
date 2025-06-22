@@ -12,6 +12,11 @@ data class Icon(
         @Composable get() {
             return if (hasRequiredVersion() && LocalConfiguration.current.isNightModeActive) dark else light
         }
+
+    @Composable
+    fun current(): ImageVector =
+        if (hasRequiredVersion() && LocalConfiguration.current.isNightModeActive) dark else light
+
 }
 
 private fun hasRequiredVersion(): Boolean = Build.VERSION.SDK_INT >= Build.VERSION_CODES.R

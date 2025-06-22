@@ -1,4 +1,4 @@
-package com.dracul.triplex.icons.ic_align_left_24_v1
+package com.dracul.triplex.icons.ic_align_left_24_v2.light
 
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.PathFillType.Companion.NonZero
@@ -11,12 +11,12 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.dracul.triplex.icons.TriplexIcons
 
-internal val TriplexIcons.IcAlignLeft_24_dm: ImageVector
+internal val TriplexIcons.IcAlignLeft_24_lm: ImageVector
     get() {
-        if (_icAlignLeft_dm != null) {
-            return _icAlignLeft_dm!!
+        if (_icAlignLeft_lm != null) {
+            return _icAlignLeft_lm!!
         }
-        _icAlignLeft_dm = Builder(
+        _icAlignLeft_lm = Builder(
             name = "IcAlignLeft",
             defaultWidth = 24.0.dp,
             defaultHeight = 24.0.dp,
@@ -24,7 +24,7 @@ internal val TriplexIcons.IcAlignLeft_24_dm: ImageVector
             viewportHeight = 24.0f
         ).apply {
             path(
-                fill = SolidColor(Color.White),
+                fill = SolidColor(Color.Black),
                 stroke = null,
                 strokeLineWidth = 0.0f,
                 strokeLineCap = Butt,
@@ -64,8 +64,9 @@ internal val TriplexIcons.IcAlignLeft_24_dm: ImageVector
                 close()
             }
         }.build()
-        return _icAlignLeft_dm!!
+        return _icAlignLeft_lm!!
     }
 
 
-private var _icAlignLeft_dm: ImageVector? = null
+private var _icAlignLeft_lm: ImageVector? = null
+
